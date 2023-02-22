@@ -1,0 +1,144 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1000px;
+    margin: auto;
+}
+header{
+    background-image: url('image/h5.jpg');
+    background-size: 1000px 125px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin: 0;
+}   
+h1{
+    text-align: center;
+    padding: 50px;
+    margin: 0;
+    color: deeppink;
+    text-shadow: 5px 5px 5px palevioletred;
+}
+
+nav{
+   background-color: #2fa1b3;
+   overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    list-style: none;
+}
+li{
+    float: left;
+}
+
+li a{
+    color: aliceblue;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.chinh{
+    border: 2px double red;
+    width: 100%;
+    min-height: 395px;
+    margin-bottom: 10px;
+}
+
+.chinh img{
+   float: left;
+   margin-right: 10px;
+   border-radius: 5px;
+   overflow: hidden;
+   padding: 3px 2px;
+}
+
+.chinh p{
+    color: black;
+    font-size: xx-large;
+}
+.chinh p:hover{
+   color: #2fa1b3 ;
+}
+
+.chinh .tinphu{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #666;
+}
+
+.phu{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+    border: 2px double red;
+
+}
+
+.tinphu1{
+    flex: 34%;
+    overflow: hidden;
+}
+
+.tinphu2{
+    flex: 34%;  
+    overflow: hidden;
+}
+
+.tinphu3{
+    flex: 34%;
+    overflow: hidden;
+}
+
+.phu img{
+    padding-top: 10px;
+    border: 0;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    padding-bottom: 0;
+    margin-left: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-left: 10px;
+}
+
+.phu p{
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    padding: 5px 50px;
+}
+
+.phu p:hover{
+    color: #2fa1b3;
+}
+
+hr{
+    border-top: 2px dotted black;
+    margin-left: 0;
+}
+
+footer{
+    background-color: orange;
+    margin: 0;
+    text-align: center;
+}
+footer p{
+    margin: 0;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+.container p:hover{
+    color: aqua;
+}
